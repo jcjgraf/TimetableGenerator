@@ -2,7 +2,8 @@
 > Create a pdf (/latex) timetable from an ics calendar
 
 ## Introduction
-Create a 5 days timetables of repeated events (e.g. lectures) automatically from a `.ics` calendar.
+Create a 5 days timetables of repeated events (e.g. lectures) automatically from a `.ics` calendar.\
+The style is based on [this](http://texample.net/tikz/examples/timetable/) latex example. So go there to see how the final pdf looks like.
 
 ## Prerequisites
 The script requires the following python 3 packages, which may be installed via `pip`:
