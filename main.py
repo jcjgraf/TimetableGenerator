@@ -41,7 +41,7 @@ def writeToTemplate(templatePath, days):
     env = Environment(loader=FileSystemLoader('.'))
     template = env.get_template(templatePath)
     
-    colors = ['red', 'green', 'blue', 'orange', 'purple', 'brown', 'gray', 'cyan']
+    colors = ['blue', 'cyan', 'green', 'lime', 'magenta', 'olive', 'orange', 'pink', 'purple', 'red', 'teal', 'violet', 'yellow', 'black', 'brown', 'darkgray', 'gray', 'lightgray', 'white']
 
     names = Counter(event.title for day in days for event in day.values() )
     names = [x[0] for x in names.most_common()]
